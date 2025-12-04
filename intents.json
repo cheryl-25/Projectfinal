@@ -1,0 +1,769 @@
+{
+  "intents": [
+    {
+      "intent": "greeting",
+      "text": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "is anyone there",
+        "are you there",
+        "hiya",
+        "how are you"
+      ],
+      "responses": [
+        "Hello! I'm the DeKUT Assistant — ask me anything about the university and I’ll help.",
+        "Greetings! I’m here to help you with information about Dedan Kimathi University of Technology."
+      ]
+    },
+    {
+      "intent": "goodbye",
+      "text": [
+        "bye",
+        "goodbye",
+        "see you",
+        "see you later",
+        "i'm leaving",
+        "talk to you later",
+        "ttyl",
+        "cya"
+      ],
+      "responses": [
+        "Goodbye! If you need more information later, come back anytime."
+      ]
+    },
+    {
+      "intent": "about_university",
+      "text": [
+        "tell me about the university",
+        "what is dekut",
+        "about dukut",
+        "about dedan kimathi",
+        "what is Dedan Kimathi University of Technology"
+      ],
+      "responses": [
+        "Dedan Kimathi University of Technology (DeKUT) is a Kenyan public university focused on technical and professional education, research and innovation. The university offers undergraduate, diploma, certificate and postgraduate programmes across science, engineering, business, tourism and other fields."
+      ]
+    },
+    {
+      "intent": "location",
+      "text": [
+        "where is dekut",
+        "where is dedan kimathi located",
+        "location of dekut",
+        "where is the university located",
+        "how far is dekut from nyeri",
+        "location of university"
+      ],
+      "responses": [
+        "Dedan Kimathi University of Technology is located about 6 km from Nyeri town along the Nyeri–Mweiga highway. For detailed directions, check the official DeKUT website or contact the admissions office."
+      ]
+    },
+    {
+      "intent": "contacts",
+      "text": [
+        "what is the phone number",
+        "contact number",
+        "how can i contact the university",
+        "dekut phone",
+        "university contact",
+        "email for dekut",
+        "admissions contact"
+      ],
+      "responses": [
+        "You can reach DeKUT at 0721206030 for general inquiries. For specific departments or admissions, please check the DeKUT website or the departmental contact list."
+      ]
+    },
+    {
+      "intent": "office_hours",
+      "text": [
+        "what are the office hours",
+        "when is the university open",
+        "working hours",
+        "hours of operation",
+        "when are you open"
+      ],
+      "responses": [
+        "The University generally operates Monday to Friday from 8:00 AM to 5:00 PM. Offices are usually closed on weekends and public holidays."
+      ]
+    },
+    {
+      "intent": "admissions_general",
+      "text": [
+        "how do i apply",
+        "admission requirements",
+        "admissions",
+        "entry requirements",
+        "how to apply to dekut",
+        "admission process"
+      ],
+      "responses": [
+        "Admission requirements vary by programme. Generally, degree programmes require a KCSE mean grade of C+ or the equivalent, while diploma and certificate requirements differ by course. Please specify the programme you are interested in for precise entry requirements."
+      ]
+    },
+    {
+      "intent": "fees_general",
+      "text": [
+        "fee structure",
+        "how much is tuition",
+        "fees for students",
+        "tuition fees",
+        "how much does it cost",
+        "fee details"
+      ],
+      "responses": [
+        "Fee structures vary by programme and and whether you are a government-sponsored or self-sponsored student. For the official and up-to-date fee structure, please visit the DeKUT fees portal or the fees section on the university website."
+      ]
+    },
+    {
+      "intent": "accommodation",
+      "text": [
+        "is there hostel",
+        "do you have accommodation",
+        "campus accommodation",
+        "student hostels",
+        "where do students stay",
+        "on-campus housing"
+      ],
+      "responses": [
+        "DeKUT provides limited on-campus accommodation and many students use nearby hostels or private housing in Nyeri town. For details about application procedures, availability and fees, contact student welfare or consult the housing office."
+      ]
+    },
+    {
+      "intent": "student_portal",
+      "text": [
+        "student portal",
+        "portal login",
+        "how to access portal",
+        "student login",
+        "where do i register units",
+        "portal"
+      ],
+      "responses": [
+        "Students access course registration, fee statements and other services via the DeKUT student portal. If you need the portal link or guidance logging in, check the university website or contact ICT support."
+      ]
+    },
+    {
+      "intent": "help_how_to_use",
+      "text": [
+        "help",
+        "how do i use this",
+        "what can you do",
+        "how can you help",
+        "what can you help me with"
+      ],
+      "responses": [
+        "I can provide information about DeKUT programmes, admissions, contacts, fees, department leadership and more. Ask a specific question like 'What are the engineering programmes?' or 'Who is the dean of engineering?'."
+      ]
+    },
+    {
+      "intent": "unknown",
+      "text": [
+        "i don't know what to ask",
+        "random question",
+        "can you answer anything",
+        "not sure"
+      ],
+      "responses": [
+        "If you're not sure where to start, try asking about admissions, programmes, or contact details. For example: 'What courses does the School of Engineering offer?'"
+      ]
+    },
+    {
+      "intent": "creator",
+      "text": [
+        "who created you",
+        "who developed you",
+        "who made you",
+        "your developer",
+        "developer information"
+      ],
+      "responses": [
+        "I was created by Cheryl Achieng as part of a DeKUT final year project."
+      ]
+    },
+    {
+      "intent": "engineering_overview",
+      "text": [
+        "tell me about the school of engineering",
+        "school of engineering details",
+        "about engineering school",
+        "engineering faculty at dekut",
+        "overview of engineering school"
+      ],
+      "responses": [
+        "The School of Engineering at DeKUT offers undergraduate and postgraduate programmes focused on practical engineering skills, research and industry partnerships. The school emphasizes hands-on training and applied research across multiple engineering disciplines."
+      ]
+    },
+    {
+      "intent": "engineering_leadership_departments",
+      "text": [
+        "who is the dean of engineering",
+        "engineering dean",
+        "who leads the school of engineering",
+        "departments in engineering",
+        "engineering departments list"
+      ],
+      "responses": [
+        "The School of Engineering is led by Dean Dr. Njenga Mburu. Departments include Chemical Engineering (HoD Dr. Kimutai Tewo), Technology Education (HoD Dr. Addero Wilson Ogot), Civil Engineering (HoD Dr. Kevin Achieng), Electrical & Electronic Engineering (HoD Dr. Edwell Tafara Mharakurwa), Mechatronic Engineering (HoD Dr. Titus Murwa Mulembo), Mechanical Engineering (HoD Dr. Mburu Ngugi)."
+      ]
+    },
+    {
+      "intent": "engineering_undergraduate_programs",
+      "text": [
+        "engineering undergraduate programs",
+        "engineering courses",
+        "what engineering courses are offered",
+        "list of engineering courses",
+        "bsc engineering courses",
+        "bsc Chemical Engineering",
+        "bsc Civil Engineering",
+        "bsc Electrical & Electronic Engineering",
+        "bsc Mechatronic Engineering ",
+        "Telecommunication & Information Engineering",
+        "bsc Mechanical Engineering"
+      ],
+      "responses": [
+        "Undergraduate programmes in the School of Engineering include: BSc Electrical & Electronic Engineering, BSc Telecommunication & Information Engineering, BSc Mechatronic Engineering, BSc Mechanical Engineering, BSc Chemical Engineering, BSc Civil Engineering, BEd Technology (Electrical & Electronic), BEd Technology (Mechanical) and BEd Technology (Civil)."
+      ]
+    },
+    {
+      "intent": "engineering_postgraduate_programs",
+      "text": [
+        "engineering masters programs",
+        "engineering postgraduate courses",
+        "msc engineering courses",
+        "phd engineering",
+        "postgraduate engineering programs"
+      ],
+      "responses": [
+        "Postgraduate programmes include M.Sc. in Advanced Manufacturing & Automation Engineering, Machine Tools Design & Manufacturing, Industrial Engineering & Management, Telecommunication Engineering, Mechanical Engineering, Biomedical Engineering, Civil Engineering, and a PhD in Mechanical Engineering. Requirements typically include a relevant BSc with an upper second-class honours or equivalent and, in some cases, relevant work experience."
+      ]
+    },
+    {
+      "intent": "engineering_entry_requirements",
+      "text": [
+        "engineering entry requirements",
+        "requirements for engineering",
+        "how to join engineering",
+        "minimum requirements for engineering courses"
+      ],
+      "responses": [
+        "Minimum entry for most engineering undergraduate programmes is a KCSE mean grade of C+ with passes in Physics, Chemistry, English and Kiswahili (or equivalent). Specific programmes may have additional subject requirements; please specify the programme for precise entry requirements.",
+        "Generally, engineering degree programmes require a KCSE mean grade of C+ and good performance in the relevant science subjects. Contact admissions for programme-specific criteria."
+      ]
+    },
+    {
+      "intent": "cs_overview",
+      "text": [
+        "tell me about the school of computer science",
+        "school of computer science details",
+        "computer science school at dekut",
+        "about cs school"
+      ],
+      "responses": [
+        "The School of Computer Science & Information Technology offers undergraduate and postgraduate programmes focused on software, systems and data science. The school emphasizes practical computing skills, cybersecurity, and research in modern IT disciplines."
+      ]
+    },
+    {
+      "intent": "cs_leadership_departments",
+      "text": [
+        "who is the dean of computer science",
+        "computer science dean",
+        "who leads cs school",
+        "cs departments",
+        "departments in computer science"
+      ],
+      "responses": [
+        "The School of Computer Science & Information Technology is led by Dean Dr. George Musumba with Dr. Kinyua Gikunda as a key departmental lead. The school includes programmes in computer science, information technology and business information technology."
+      ]
+    },
+    {
+      "intent": "cs_undergraduate_programs",
+      "text": [
+        "computer science courses",
+        "what computer science programmes do you offer",
+        "bsc computer science list",
+        "undergraduate it courses",
+        "it courses at dekut",
+        "IT courses at dekut",
+        "bbit courses at dekut"
+      ],
+      "responses": [
+        "Undergraduate programmes include: BSc Computer Science, BSc Information Technology, and BSc Business Information Technology. Entry requirements vary; BSc Computer Science typically requires a C+ in Mathematics and a C+ in Physical Sciences or an equivalent combination of qualifications."
+      ]
+    },
+    {
+      "intent": "cs_postgraduate_programs",
+      "text": [
+        "computer science masters",
+        "msc computer science",
+        "postgraduate it courses",
+        "phd computer science",
+        "masters in data science"
+      ],
+      "responses": [
+        "The school offers master's degrees in Computer Science, Cybersecurity and Data Science, as well as PhD opportunities for qualified candidates with a relevant master's degree."
+      ]
+    },
+    {
+      "intent": "cs_entry_requirements",
+      "text": [
+        "computer science requirements",
+        "requirements for computer science",
+        "how to join computer science",
+        "entry requirements for it"
+      ],
+      "responses": [
+        "Minimum entry varies by programme. Most computer science and IT courses require a KCSE mean grade of C+ and a C plain in Mathematics and English/Kiswahili. BSc Computer Science may require a higher performance in Mathematics and Physical Sciences."
+      ]
+    },
+    {
+      "intent": "science_overview",
+      "text": [
+        "tell me about the school of science",
+        "school of science details",
+        "about science school",
+        "science faculty dekut",
+        "overview of school of science"
+      ],
+      "responses": [
+        "The School of Science at DeKUT offers programmes in natural sciences, chemistry, physics, mathematics, statistics, actuarial science and applied sciences. The school focuses on research, laboratory-based training and strong analytical skills development."
+      ]
+    },
+    {
+      "intent": "science_leadership_departments",
+      "text": [
+        "who is the dean of science",
+        "science dean",
+        "science departments",
+        "departments in school of science",
+        "leadership in school of science"
+      ],
+      "responses": [
+        "The School of Science is led by Dean Dr. Antony Ngunyi. Departments include Chemistry (HoD Dr. Paul Tanui), Mathematics & Physical Sciences (HoD Dr. Reuben Ndung’u), and Statistics & Actuarial Science (HoD Dr. Cyprian Omari)."
+      ]
+    },
+    {
+      "intent": "science_undergraduate_programs",
+      "text": [
+        "science courses",
+        "what courses are offered in school of science",
+        "undergraduate science programmes",
+        "degree programs in science",
+        "BSc Actuarial Science",
+        "BSc Industrial Chemistry",
+        "BSc Leather Technology",
+        "BSc Polymer Chemistry",
+        "BSc Medical Physics",
+        "BSc Mathematics & Modeling Processes"
+      ],
+      "responses": [
+        "The school offers a variety of science degrees such as Actuarial Science, Industrial Chemistry, Leather Technology, Polymer Chemistry, Medical Physics and Mathematics & Modeling Processes."
+      ]
+    },
+    {
+      "intent": "science_postgraduate_programs",
+      "text": [
+        "science masters",
+        "msc in science",
+        "postgraduate courses in school of science",
+        "phd in science"
+      ],
+      "responses": [
+        "Postgraduate programmes include MSc in Leather Technology, MSc in Chemistry, MSc in Industrial Biochemistry, MSc in Laser & Photonic Technology, MSc in Industrial Mathematics, and a PhD in Chemistry. Admission usually requires a relevant bachelor's degree with strong academic performance."
+      ]
+    },
+    {
+      "intent": "science_entry_requirements",
+      "text": [
+        "science entry requirements",
+        "requirements for science courses",
+        "how to join school of science",
+        "minimum requirements for science degree"
+      ],
+      "responses": [
+        "Most science degree programmes require a KCSE mean grade of C+ with strong performance in Mathematics, English/Kiswahili and relevant science subjects. Specific requirements vary by programme."
+      ]
+    },
+    {
+      "intent": "business_overview",
+      "text": [
+        "tell me about the school of business",
+        "school of business details",
+        "about business school",
+        "business faculty at dekut"
+      ],
+      "responses": [
+        "The School of Business, Management & Economics offers business-oriented programmes designed to build strong analytical, managerial and entrepreneurial skills. The school combines theory, practical case studies and industry exposure."
+      ]
+    },
+    {
+      "intent": "business_leadership",
+      "text": [
+        "who is the dean of business",
+        "business dean",
+        "leader of school of business",
+        "business school leadership"
+      ],
+      "responses": [
+        "The School of Business, Management & Economics is led by Dean Dr. Anne Sang. The school oversees undergraduate, diploma and postgraduate programmes in business-related disciplines."
+      ]
+    },
+    {
+      "intent": "business_undergraduate_programs",
+      "text": [
+        "business courses",
+        "undergraduate business programs",
+        "degree programs in business",
+        "Bsc of Commerce",
+        "bsc of Business Administration",
+        "bsc of Purchasing & Supplies Management",
+        "commerce and business courses"
+      ],
+      "responses": [
+        "Business undergraduate options include Commerce, Business Administration and Purchasing & Supplies Management, plus diploma pathways for progression."
+      ]
+    },
+    {
+      "intent": "business_postgraduate_programs",
+      "text": [
+        "business masters",
+        "postgraduate business courses",
+        "mba",
+        "phd business"
+      ],
+      "responses": [
+        "Postgraduate programmes include: MBA, MSc Business Analytics, MSc Supply Chain Management, MSc Project Management, MSc Economics, MSc Innovation & Entrepreneurship Management, Postgraduate Diploma in Project Management, and PhD programmes in Business Administration & Management and Operations & Supply Chain Management."
+      ]
+    },
+    {
+      "intent": "business_entry_requirements",
+      "text": [
+        "business entry requirements",
+        "requirements for business courses",
+        "minimum requirements for commerce",
+        "how to join business school"
+      ],
+      "responses": [
+        "Degree programmes generally require a KCSE mean grade of C+ with good performance in Mathematics and English/Kiswahili, or a recognized KNEC diploma. Master's and PhD requirements vary based on academic background and experience."
+      ]
+    },
+    {
+      "intent": "nursing_overview",
+      "text": [
+        "tell me about the school of nursing",
+        "nursing school details",
+        "about nursing at dekut"
+      ],
+      "responses": [
+        "The School of Nursing offers both direct and upgrading Bachelor of Science in Nursing programmes. The school emphasizes clinical competence, professionalism and healthcare leadership."
+      ]
+    },
+    {
+      "intent": "nursing_leadership",
+      "text": [
+        "who is the dean of nursing",
+        "nursing dean",
+        "leader of school of nursing"
+      ],
+      "responses": [
+        "The School of Nursing is led by Dean Dr. Florence Mbuthia."
+      ]
+    },
+    {
+      "intent": "nursing_programs",
+      "text": [
+        "nursing courses",
+        "bsc nursing",
+        "nursing programs at dekut",
+        "nursing undergraduate programs"
+      ],
+      "responses": [
+        "The School of Nursing offers: Bachelor of Science in Nursing (Direct Entry) and Bachelor of Science in Nursing (Upgrading) for registered nurses. Requirements differ depending on the track."
+      ]
+    },
+    {
+      "intent": "nursing_requirements",
+      "text": [
+        "nursing entry requirements",
+        "requirements for nursing",
+        "how to join nursing programme"
+      ],
+      "responses": [
+        "Direct-entry BSc Nursing requires a KCSE mean grade of C+ with a C+ in Biology, English/Kiswahili, Mathematics/Physics and Chemistry. The upgrading programme requires KRCHN or KRN/KRM/PH, two years of experience and valid NCK licensing."
+      ]
+    },
+    {
+      "intent": "graduate_school_overview",
+      "text": [
+        "tell me about school of graduate studies",
+        "postgraduate school dekut",
+        "graduate studies information"
+      ],
+      "responses": [
+        "The School of Graduate Studies & Research coordinates all postgraduate programmes at DeKUT. It manages admissions, academic progress, research grants, thesis examinations and overall postgraduate welfare."
+      ]
+    },
+    {
+      "intent": "graduate_school_leadership",
+      "text": [
+        "who is the dean of graduate school",
+        "graduate school dean",
+        "leader of graduate studies"
+      ],
+      "responses": [
+        "The School of Graduate Studies & Research is led by Dean Dr. Douglas Onyancha."
+      ]
+    },
+    {
+      "intent": "criminology_institute",
+      "text": [
+        "tell me about criminology institute",
+        "criminology courses dekut",
+        "forensics courses",
+        "BSc Criminology & Security Management ",
+        "MSc Forensics & Security Management",
+        "security studies institute"
+      ],
+      "responses": [
+        "The Institute of Criminology, Forensics and Security Studies is led by Director Mr. Dennis Miano. It offers BSc Criminology & Security Management and MSc Forensics & Security Management. Programmes align with CUE regulations and focus on applied criminology and corporate forensic management."
+      ]
+    },
+    {
+      "intent": "iggres_overview",
+      "text": [
+        "tell me about iggres",
+        "geomatics courses",
+        "gis courses",
+        "remote sensing programs"
+      ],
+      "responses": [
+        "The Institute of Geomatics, GIS & Remote Sensing (IGGReS), led by Director Dr. Mark K. Boitt, offers BSc Geomatics Engineering & GIS, and BSc Geospatial Information Science & Remote Sensing. It also offers postgraduate programmes including MSc GIS & Remote Sensing and a PhD in Geomatics."
+      ]
+    },
+    {
+      "intent": "iggres_programs",
+      "text": [
+        "geomatics courses",
+        "BSc Geomatics Engineering & GIS",
+        "BSc Geospatial Information Science & Remote Sensing"
+      ],
+      "responses": [
+        "The Institute of Geomatics, GIS & Remote Sensing (IGGReS),  offers BSc Geomatics Engineering & GIS, and BSc Geospatial Information Science & Remote Sensing. It also offers postgraduate programmes including MSc GIS & Remote Sensing and a PhD in Geomatics."
+      ]
+    },
+    {
+      "intent": "iggres_requirements",
+      "text": [
+        "iggres entry requirements",
+        "geomatics requirements",
+        "gis requirements",
+        "how to join geomatics"
+      ],
+      "responses": [
+        "KCSE applicants need a C+ in Mathematics and at least a C+ in two subjects such as Physics, Chemistry, Geography, Biology or Physical Sciences. Diploma applicants require a credit in a relevant KNEC diploma such as land surveying or geomatics."
+      ]
+    },
+    {
+      "intent": "itohm_overview",
+      "text": [
+        "tell me about itohm",
+        "tourism institute details",
+        "hospitality school",
+        "tourism courses dekut",
+        "hospitality programs dekut"
+      ],
+      "responses": [
+        "The Institute of Tourism and Hospitality Management (IToHM), led by Director Dr. Peninah W. Chege, offers programmes in sustainable tourism and hospitality. The institute focuses on tourism operations, hospitality skills, wildlife management and sustainable tourism practices."
+      ]
+    },
+    {
+      "intent": "itohm_programs",
+      "text": [
+        "tourism programs",
+        "hospitality courses",
+        "degree in tourism",
+        "bachelor of tourism",
+        "tourism courses offered"
+      ],
+      "responses": [
+        "IToHM offers: BSc Sustainable Tourism & Hospitality Management, Diploma in Sustainable Tourism & Hospitality Management, Certificate in Institutional Accommodation & Catering Operations, and several short courses including Mountaineering & Outdoor Expeditions Guiding."
+      ]
+    },
+    {
+      "intent": "itohm_requirements",
+      "text": [
+        "tourism requirements",
+        "hospitality requirements",
+        "entry requirements for tourism",
+        "how to join itohm"
+      ],
+      "responses": [
+        "For BSc Sustainable Tourism & Hospitality Management, applicants need a C+ in KCSE or a relevant diploma. Diploma entry requires a C- with relevant subjects. Certificate courses require a minimum of D or D- depending on specialization."
+      ]
+    },
+    {
+      "intent": "ifbt_overview",
+      "text": [
+        "tell me about ifbt",
+        "food science institute",
+        "nutrition courses dekut",
+        "bioresources institute"
+      ],
+      "responses": [
+        "The Institute of Food & Bioresources Technology (IFBT), led by Director Dr. Richard Koskei, offers programmes in Food Science & Technology, Nutrition & Dietetics, and Coffee Technology & Cupping. It focuses on food processing, nutrition, quality control and applied sciences.",
+        "IFBT provides industry-focused training in food sciences, nutrition, agro-processing and coffee technology under the leadership of Dr. Richard Koskei."
+      ]
+    },
+    {
+      "intent": "ifbt_programs",
+      "text": [
+        "food science programs",
+        "nutrition programs",
+        "courses in ifbt",
+        "BSc Food Science & Technology",
+        "BSc Nutrition & Dietetics",
+        "coffee technology courses"
+      ],
+      "responses": [
+        "Programmes include: BSc Food Science & Technology, BSc Nutrition & Dietetics, Diploma in Coffee Technology & Cupping, Certificate in Coffee Technology, MSc Food Science & Technology, and PhD in Food Science & Technology."
+      ]
+    },
+    {
+      "intent": "ifbt_requirements",
+      "text": [
+        "food science requirements",
+        "nutrition requirements",
+        "ifbt entry requirements"
+      ],
+      "responses": [
+        "Degree programmes require a KCSE mean grade of C+ with strong passes in Chemistry, Biology and Mathematics/Physics. Diplomas require at least a C- with relevant science subjects. Certificates require D+ or D depending on the course."
+      ]
+    },
+    {
+      "intent": "itps_overview",
+      "text": [
+        "tell me about itps",
+        "technical institute dekut",
+        "professional programs dekut",
+        "certificate courses dekut",
+        "diploma courses dekut"
+      ],
+      "responses": [
+        "The Institute of Technical & Professional Studies (ITPS), led by Director Dr. Erastus Karoki, offers diplomas, certificates and professional courses across business, engineering, tourism, IT, fashion, building technology, welding and more."
+      ]
+    },
+    {
+      "intent": "itps_diplomas",
+      "text": [
+        "diploma programs",
+        "diploma courses dekut",
+        "what diplomas are offered",
+        "list of diploma courses"
+      ],
+      "responses": [
+        "ITPS offers diplomas in: Business Admin, Purchasing & Supplies Management, Information Technology, Security Management, Coffee Technology & Cupping, Food Science Technology, Tourism & Hospitality, Electrical & Electronics Engineering (Power), Fashion Design, Furniture Technology, Building Technology, Metal Work & Welding."
+      ]
+    },
+    {
+      "intent": "itps_certificates",
+      "text": [
+        "certificate programs",
+        "certificate courses dekut",
+        "what certificates are offered",
+        "certificates available"
+      ],
+      "responses": [
+        "Certificate programmes include: Electrical & Electronics Engineering, Fashion Design, Furniture Technology, Building Technology, Welding & Design, German Language, IT, Coffee Technology, and Mountaineering & Outdoor Expeditions Guiding."
+      ]
+    },
+    {
+      "intent": "itps_professional_courses",
+      "text": [
+        "professional courses",
+        "aps k",
+        "cpsp k",
+        "professional training dekut"
+      ],
+      "responses": [
+        "Professional courses include APS-K, CPSP-K, ATD Level I, Siemens Mechatronic Systems Certification (SMSCP Level 1), and advanced training in procurement, accounting and mechatronics."
+      ]
+    },
+    {
+      "intent": "getri_overview",
+      "text": [
+        "tell me about getri",
+        "geothermal institute",
+        "geothermal courses dekut",
+        "geothermal energy training"
+      ],
+      "responses": [
+        "The Geothermal Training & Research Institute (GeTRI), led by Director Dr. Patrick Chege Kariuki, offers advanced training in geothermal energy exploration, drilling, geoscience analysis and geothermal engineering."
+      ]
+    },
+    {
+      "intent": "getri_programs",
+      "text": [
+        "geothermal programs",
+        "msc geothermal",
+        "geothermal postgraduate courses",
+        "BSc Geology"
+      ],
+      "responses": [
+        "Programmes include: MSc Geothermal Energy Technology, Postgraduate Diploma in Geothermal Energy, and BSc Geology. These programmes cover earth sciences, engineering and geothermal exploration."
+      ]
+    },
+    {
+      "intent": "getri_requirements",
+      "text": [
+        "geothermal requirements",
+        "msc geothermal requirements",
+        "geology entry requirements"
+      ],
+      "responses": [
+        "MSc requirements include a relevant BSc in sciences or engineering with at least Second Class Upper or Second Class Lower with experience. BSc Geology requires a C+ in KCSE with strong grades in Mathematics and two science subjects."
+      ]
+    },
+    {
+      "intent": "general_studies_overview",
+      "text": [
+        "tell me about institute of general studies",
+        "general studies dekut",
+        "common units dekut"
+      ],
+      "responses": [
+        "The Institute of General Studies, led by Director Prof. Theuri Matthew Mwangi, oversees university-wide common units such as Communication Skills, Business English, Philosophy, Critical Thinking, Development Studies and Gender & Development."
+      ]
+    },
+    {
+      "intent": "thanks",
+      "text": [
+        "thank you",
+        "thanks",
+        "appreciate",
+        "thanks a lot",
+        "thank you so much"
+      ],
+      "responses": [
+        "You're welcome! 😊 If you need more details about any school or programme, feel free to ask.",
+        "Happy to help! Let me know if you'd like information on admissions, programmes or contacts."
+      ]
+    },
+    {
+      "intent": "fallback",
+      "text": [
+        "unknown question",
+        "random",
+        "i don't understand",
+        "repeat please"
+      ],
+      "responses": [
+        "I’m not fully sure about that. Could you rephrase your question or specify the programme or school you're asking about?",
+        "I might not have that information yet. Please try asking in another way or specify the topic more clearly."
+      ]
+    }
+  ]
+}

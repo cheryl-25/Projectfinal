@@ -6,6 +6,8 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import time
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 class DeKUTScraper:
     def __init__(self):
@@ -36,7 +38,7 @@ class DeKUTScraper:
         
         try:
             # 1. Fetch the webpage
-            response = self.session.get(self.base_url + page_url, timeout=10)
+            response = self.session.get(self.base_url + page_url, timeout=10,verify=False)
             
             # 2. Check if successful
             if response.status_code != 200:
@@ -95,19 +97,15 @@ class DeKUTScraper:
         # Define which pages to scrape and what keywords to look for
         pages_to_scrape = [
             {
-                "url": "/admissions",
+                "url": "/index.php/academics/admission/application-forms",
                 "keywords": ["admission", "apply", "requirement", "deadline", "application"]
             },
             {
-                "url": "/fees-structure",
-                "keywords": ["fee", "payment", "tuition", "cost", "amount"]
+                "url":"/index.php/students/dekut-financial-aid-office-defao",
+                "keywords":["aid","support","needs","financial aid"]
             },
             {
-                "url": "/academic-programmes",
-                "keywords": ["program", "course", "degree", "diploma", "certificate"]
-            },
-            {
-                "url": "/contact-us",
+                "url": "/index.php/about-dekut/s5-accordion-menu/location-and-contacts",
                 "keywords": ["contact", "phone", "email", "address", "location"]
             }
         ]

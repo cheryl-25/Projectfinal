@@ -12,9 +12,10 @@ function sendUserMessage() {
 
     // 2. Send to Flask Backend
     $.ajax({
-        data: { msg: rawText },
+        data: JSON.stringify({ message: rawText }), 
+        contentType: "application/json",            
         type: "POST",
-        url: "/get",
+        url: "/chat",
     }).done(function(data) {
         // 3. Show Bot Response
         var botHtml = '<div class="bot-msg"><p>' + data.response + '</p></div>';

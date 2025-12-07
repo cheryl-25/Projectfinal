@@ -1,8 +1,8 @@
 {
   "intents": [
     {
-      "intent": "greeting",
-      "text": [
+      "tag": "greeting",
+      "patterns": [
         "hi",
         "hello",
         "hey",
@@ -20,8 +20,8 @@
       ]
     },
     {
-      "intent": "goodbye",
-      "text": [
+      "tag": "goodbye",
+      "patterns": [
         "bye",
         "goodbye",
         "see you",
@@ -36,8 +36,8 @@
       ]
     },
     {
-      "intent": "about_university",
-      "text": [
+      "tag": "about_university",
+      "patterns": [
         "tell me about the university",
         "what is dekut",
         "about dukut",
@@ -49,8 +49,8 @@
       ]
     },
     {
-      "intent": "history_legacy",
-      "text": [
+      "tag": "history_legacy",
+      "patterns": [
         "history of dekut",
         "when was dekut started",
         "who is dedan kimathi",
@@ -62,8 +62,8 @@
       ]
     },
     {
-      "intent": "science_park_stl",
-      "text": [
+      "tag": "science_park_stl",
+      "patterns": [
         "science and technology park",
         "dest park",
         "semiconductor factory",
@@ -76,8 +76,8 @@
       ]
     },
     {
-      "intent": "siemens_centre",
-      "text": [
+      "tag": "siemens_centre",
+      "patterns": [
         "siemens training centre",
         "siemens certification",
         "mechatronics certification",
@@ -88,8 +88,8 @@
       ]
     },
     {
-      "intent": "research_centers",
-      "text": [
+      "tag": "research_centers",
+      "patterns": [
         "research centers",
         "dsail",
         "artificial intelligence research",
@@ -101,8 +101,8 @@
       ]
     },
     {
-      "intent": "location",
-      "text": [
+      "tag": "location",
+      "patterns": [
         "where is dekut",
         "where is dedan kimathi located",
         "location of dekut",
@@ -115,8 +115,8 @@
       ]
     },
     {
-      "intent": "contacts",
-      "text": [
+      "tag": "contacts",
+      "patterns": [
         "what is the phone number",
         "contact number",
         "how can i contact the university",
@@ -130,8 +130,8 @@
       ]
     },
     {
-      "intent": "office_hours",
-      "text": [
+      "tag": "office_hours",
+      "patterns": [
         "what are the office hours",
         "when is the university open",
         "working hours",
@@ -143,8 +143,8 @@
       ]
     },
     {
-      "intent": "admissions_general",
-      "text": [
+      "tag": "admissions_general",
+      "patterns": [
         "how do i apply",
         "admission requirements",
         "admissions",
@@ -157,8 +157,8 @@
       ]
     },
     {
-      "intent": "fees_general",
-      "text": [
+      "tag": "fees_general",
+      "patterns": [
         "fee structure",
         "how much is tuition",
         "fees for students",
@@ -172,8 +172,8 @@
       ]
     },
     {
-      "intent": "financial_aid",
-      "text": [
+      "tag": "financial_aid",
+      "patterns": [
         "financial aid",
         "bursaries",
         "work study",
@@ -185,8 +185,8 @@
       ]
     },
     {
-      "intent": "accommodation",
-      "text": [
+      "tag": "accommodation",
+      "patterns": [
         "is there hostel",
         "do you have accommodation",
         "campus accommodation",
@@ -200,8 +200,8 @@
       ]
     },
     {
-      "intent": "student_life",
-      "text": [
+      "tag": "student_life",
+      "patterns": [
         "student life",
         "clubs and societies",
         "dekutso",
@@ -214,8 +214,8 @@
       ]
     },
     {
-      "intent": "alumni",
-      "text": [
+      "tag": "alumni",
+      "patterns": [
         "notable alumni",
         "famous graduates",
         "who studied at dekut",
@@ -226,8 +226,8 @@
       ]
     },
     {
-      "intent": "student_portal",
-      "text": [
+      "tag": "student_portal",
+      "patterns": [
         "student portal",
         "portal login",
         "how to access portal",
@@ -240,8 +240,8 @@
       ]
     },
     {
-      "intent": "help_how_to_use",
-      "text": [
+      "tag": "help_how_to_use",
+      "patterns": [
         "help",
         "how do i use this",
         "what can you do",
@@ -253,8 +253,8 @@
       ]
     },
     {
-      "intent": "unknown",
-      "text": [
+      "tag": "unknown",
+      "patterns": [
         "i don't know what to ask",
         "random question",
         "can you answer anything",
@@ -265,8 +265,8 @@
       ]
     },
     {
-      "intent": "creator",
-      "text": [
+      "tag": "creator",
+      "patterns": [
         "who created you",
         "who developed you",
         "who made you",
@@ -278,8 +278,8 @@
       ]
     },
     {
-      "intent": "engineering_overview",
-      "text": [
+      "tag": "engineering_overview",
+      "patterns": [
         "tell me about the school of engineering",
         "school of engineering details",
         "about engineering school",
@@ -291,8 +291,8 @@
       ]
     },
     {
-      "intent": "engineering_leadership_departments",
-      "text": [
+      "tag": "engineering_leadership_departments",
+      "patterns": [
         "who is the dean of engineering",
         "engineering dean",
         "who leads the school of engineering",
@@ -304,8 +304,8 @@
       ]
     },
     {
-      "intent": "engineering_undergraduate_programs",
-      "text": [
+      "tag": "engineering_undergraduate_programs",
+      "patterns": [
         "engineering undergraduate programs",
         "engineering courses",
         "what engineering courses are offered",
@@ -323,8 +323,8 @@
       ]
     },
     {
-      "intent": "engineering_postgraduate_programs",
-      "text": [
+      "tag": "engineering_postgraduate_programs",
+      "patterns": [
         "engineering masters programs",
         "engineering postgraduate courses",
         "msc engineering courses",
@@ -336,8 +336,8 @@
       ]
     },
     {
-      "intent": "engineering_entry_requirements",
-      "text": [
+      "tag": "engineering_entry_requirements",
+      "patterns": [
         "engineering entry requirements",
         "requirements for engineering",
         "how to join engineering",
@@ -349,8 +349,8 @@
       ]
     },
     {
-      "intent": "cs_overview",
-      "text": [
+      "tag": "cs_overview",
+      "patterns": [
         "tell me about the school of computer science",
         "school of computer science details",
         "computer science school at dekut",
@@ -361,8 +361,8 @@
       ]
     },
     {
-      "intent": "cs_leadership_departments",
-      "text": [
+      "tag": "cs_leadership_departments",
+      "patterns": [
         "who is the dean of computer science",
         "computer science dean",
         "who leads cs school",
@@ -374,8 +374,8 @@
       ]
     },
     {
-      "intent": "cs_undergraduate_programs",
-      "text": [
+      "tag": "cs_undergraduate_programs",
+      "patterns": [
         "computer science courses",
         "what computer science programmes do you offer",
         "bsc computer science list",
@@ -389,8 +389,8 @@
       ]
     },
     {
-      "intent": "cs_postgraduate_programs",
-      "text": [
+      "tag": "cs_postgraduate_programs",
+      "patterns": [
         "computer science masters",
         "msc computer science",
         "postgraduate it courses",
@@ -402,8 +402,8 @@
       ]
     },
     {
-      "intent": "cs_entry_requirements",
-      "text": [
+      "tag": "cs_entry_requirements",
+      "patterns": [
         "computer science requirements",
         "requirements for computer science",
         "how to join computer science",
@@ -414,8 +414,8 @@
       ]
     },
     {
-      "intent": "science_overview",
-      "text": [
+      "tag": "science_overview",
+      "patterns": [
         "tell me about the school of science",
         "school of science details",
         "about science school",
@@ -427,8 +427,8 @@
       ]
     },
     {
-      "intent": "science_leadership_departments",
-      "text": [
+      "tag": "science_leadership_departments",
+      "patterns": [
         "who is the dean of science",
         "science dean",
         "science departments",
@@ -440,8 +440,8 @@
       ]
     },
     {
-      "intent": "science_undergraduate_programs",
-      "text": [
+      "tag": "science_undergraduate_programs",
+      "patterns": [
         "science courses",
         "what courses are offered in school of science",
         "undergraduate science programmes",
@@ -458,8 +458,8 @@
       ]
     },
     {
-      "intent": "science_postgraduate_programs",
-      "text": [
+      "tag": "science_postgraduate_programs",
+      "patterns": [
         "science masters",
         "msc in science",
         "postgraduate courses in school of science",
@@ -470,8 +470,8 @@
       ]
     },
     {
-      "intent": "science_entry_requirements",
-      "text": [
+      "tag": "science_entry_requirements",
+      "patterns": [
         "science entry requirements",
         "requirements for science courses",
         "how to join school of science",
@@ -482,8 +482,8 @@
       ]
     },
     {
-      "intent": "business_overview",
-      "text": [
+      "tag": "business_overview",
+      "patterns": [
         "tell me about the school of business",
         "school of business details",
         "about business school",
@@ -494,8 +494,8 @@
       ]
     },
     {
-      "intent": "business_leadership",
-      "text": [
+      "tag": "business_leadership",
+      "patterns": [
         "who is the dean of business",
         "business dean",
         "leader of school of business",
@@ -506,8 +506,8 @@
       ]
     },
     {
-      "intent": "business_undergraduate_programs",
-      "text": [
+      "tag": "business_undergraduate_programs",
+      "patterns": [
         "business courses",
         "undergraduate business programs",
         "degree programs in business",
@@ -521,8 +521,8 @@
       ]
     },
     {
-      "intent": "business_postgraduate_programs",
-      "text": [
+      "tag": "business_postgraduate_programs",
+      "patterns": [
         "business masters",
         "postgraduate business courses",
         "mba",
@@ -533,8 +533,8 @@
       ]
     },
     {
-      "intent": "business_entry_requirements",
-      "text": [
+      "tag": "business_entry_requirements",
+      "patterns": [
         "business entry requirements",
         "requirements for business courses",
         "minimum requirements for commerce",
@@ -545,8 +545,8 @@
       ]
     },
     {
-      "intent": "nursing_overview",
-      "text": [
+      "tag": "nursing_overview",
+      "patterns": [
         "tell me about the school of nursing",
         "nursing school details",
         "about nursing at dekut"
@@ -556,8 +556,8 @@
       ]
     },
     {
-      "intent": "nursing_leadership",
-      "text": [
+      "tag": "nursing_leadership",
+      "patterns": [
         "who is the dean of nursing",
         "nursing dean",
         "leader of school of nursing"
@@ -567,8 +567,8 @@
       ]
     },
     {
-      "intent": "nursing_programs",
-      "text": [
+      "tag": "nursing_programs",
+      "patterns": [
         "nursing courses",
         "bsc nursing",
         "nursing programs at dekut",
@@ -579,8 +579,8 @@
       ]
     },
     {
-      "intent": "nursing_requirements",
-      "text": [
+      "tag": "nursing_requirements",
+      "patterns": [
         "nursing entry requirements",
         "requirements for nursing",
         "how to join nursing programme"
@@ -590,8 +590,8 @@
       ]
     },
     {
-      "intent": "graduate_school_overview",
-      "text": [
+      "tag": "graduate_school_overview",
+      "patterns": [
         "tell me about school of graduate studies",
         "postgraduate school dekut",
         "graduate studies information"
@@ -601,8 +601,8 @@
       ]
     },
     {
-      "intent": "graduate_school_leadership",
-      "text": [
+      "tag": "graduate_school_leadership",
+      "patterns": [
         "who is the dean of graduate school",
         "graduate school dean",
         "leader of graduate studies"
@@ -612,8 +612,8 @@
       ]
     },
     {
-      "intent": "criminology_institute",
-      "text": [
+      "tag": "criminology_institute",
+      "patterns": [
         "tell me about criminology institute",
         "criminology courses dekut",
         "forensics courses",
@@ -626,8 +626,8 @@
       ]
     },
     {
-      "intent": "iggres_overview",
-      "text": [
+      "tag": "iggres_overview",
+      "patterns": [
         "tell me about iggres",
         "geomatics courses",
         "gis courses",
@@ -638,8 +638,8 @@
       ]
     },
     {
-      "intent": "iggres_programs",
-      "text": [
+      "tag": "iggres_programs",
+      "patterns": [
         "geomatics courses",
         "BSc Geomatics Engineering & GIS",
         "BSc Geospatial Information Science & Remote Sensing"
@@ -649,8 +649,8 @@
       ]
     },
     {
-      "intent": "iggres_requirements",
-      "text": [
+      "tag": "iggres_requirements",
+      "patterns": [
         "iggres entry requirements",
         "geomatics requirements",
         "gis requirements",
@@ -661,8 +661,8 @@
       ]
     },
     {
-      "intent": "itohm_overview",
-      "text": [
+      "tag": "itohm_overview",
+      "patterns": [
         "tell me about itohm",
         "tourism institute details",
         "hospitality school",
@@ -674,8 +674,8 @@
       ]
     },
     {
-      "intent": "itohm_programs",
-      "text": [
+      "tag": "itohm_programs",
+      "patterns": [
         "tourism programs",
         "hospitality courses",
         "degree in tourism",
@@ -687,8 +687,8 @@
       ]
     },
     {
-      "intent": "itohm_requirements",
-      "text": [
+      "tag": "itohm_requirements",
+      "patterns": [
         "tourism requirements",
         "hospitality requirements",
         "entry requirements for tourism",
@@ -699,8 +699,8 @@
       ]
     },
     {
-      "intent": "ifbt_overview",
-      "text": [
+      "tag": "ifbt_overview",
+      "patterns": [
         "tell me about ifbt",
         "food science institute",
         "nutrition courses dekut",
@@ -712,8 +712,8 @@
       ]
     },
     {
-      "intent": "ifbt_programs",
-      "text": [
+      "tag": "ifbt_programs",
+      "patterns": [
         "food science programs",
         "nutrition programs",
         "courses in ifbt",
@@ -726,8 +726,8 @@
       ]
     },
     {
-      "intent": "ifbt_requirements",
-      "text": [
+      "tag": "ifbt_requirements",
+      "patterns": [
         "food science requirements",
         "nutrition requirements",
         "ifbt entry requirements"
@@ -737,8 +737,8 @@
       ]
     },
     {
-      "intent": "itps_overview",
-      "text": [
+      "tag": "itps_overview",
+      "patterns": [
         "tell me about itps",
         "technical institute dekut",
         "professional programs dekut",
@@ -750,8 +750,8 @@
       ]
     },
     {
-      "intent": "itps_diplomas",
-      "text": [
+      "tag": "itps_diplomas",
+      "patterns": [
         "diploma programs",
         "diploma courses dekut",
         "what diplomas are offered",
@@ -762,8 +762,8 @@
       ]
     },
     {
-      "intent": "itps_certificates",
-      "text": [
+      "tag": "itps_certificates",
+      "patterns": [
         "certificate programs",
         "certificate courses dekut",
         "what certificates are offered",
@@ -774,8 +774,8 @@
       ]
     },
     {
-      "intent": "itps_professional_courses",
-      "text": [
+      "tag": "itps_professional_courses",
+      "patterns": [
         "professional courses",
         "aps k",
         "cpsp k",
@@ -786,8 +786,8 @@
       ]
     },
     {
-      "intent": "getri_overview",
-      "text": [
+      "tag": "getri_overview",
+      "patterns": [
         "tell me about getri",
         "geothermal institute",
         "geothermal courses dekut",
@@ -798,8 +798,8 @@
       ]
     },
     {
-      "intent": "getri_programs",
-      "text": [
+      "tag": "getri_programs",
+      "patterns": [
         "geothermal programs",
         "msc geothermal",
         "geothermal postgraduate courses",
@@ -810,8 +810,8 @@
       ]
     },
     {
-      "intent": "getri_requirements",
-      "text": [
+      "tag": "getri_requirements",
+      "patterns": [
         "geothermal requirements",
         "msc geothermal requirements",
         "geology entry requirements"
@@ -821,8 +821,8 @@
       ]
     },
     {
-      "intent": "general_studies_overview",
-      "text": [
+      "tag": "general_studies_overview",
+      "patterns": [
         "tell me about institute of general studies",
         "general studies dekut",
         "common units dekut"
@@ -832,8 +832,8 @@
       ]
     },
     {
-      "intent": "thanks",
-      "text": [
+      "tag": "thanks",
+      "patterns": [
         "thank you",
         "thanks",
         "appreciate",
@@ -846,8 +846,8 @@
       ]
     },
     {
-      "intent": "fallback",
-      "text": [
+      "tag": "fallback",
+      "patterns": [
         "unknown question",
         "random",
         "i don't understand",

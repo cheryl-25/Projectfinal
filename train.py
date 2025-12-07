@@ -112,4 +112,22 @@ class SimpleIntentClassifier:
         
         return intent, probability
 
-# Update app.py to use this simpler model
+if __name__ == "__main__":
+    try:
+        # 1. Initialize the classifier
+        # Make sure 'intents.json' is in the same folder!
+        classifier = SimpleIntentClassifier(intents_file='intents.json')
+        
+        # 2. Run the training
+        classifier.train()
+        
+        # 3. Quick test (Optional)
+        print("\n🔎 Quick Test:")
+        test_text = "Hello there"
+        intent, prob = classifier.predict(test_text)
+        print(f"   Input: '{test_text}' -> Detected: {intent} ({prob:.2%})")
+        
+    except FileNotFoundError:
+        print("❌ Error: 'intents.json' file not found. Please make sure it exists in this folder.")
+    except Exception as e:
+        print(f"❌ An unexpected error occurred: {e}")

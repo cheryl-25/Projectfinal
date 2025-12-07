@@ -1,8 +1,8 @@
-Flask==3.0.0
-numpy==1.26.4
-scikit-learn==1.4.0
-beautifulsoup4==4.12.2
-requests==2.31.0
-lxml==5.2.2
-pandas==2.2.0
-joblib==1.4.0
+Flask
+numpy
+scikit-learn
+beautifulsoup4
+requests
+lxml
+pandas
+joblib

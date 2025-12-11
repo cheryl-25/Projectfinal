@@ -17,7 +17,7 @@ class SimpleDekutChatbot:
         
         try:
             # Load intents
-            with open('intents.json', 'r', encoding='utf-8') as f:
+            with open('intents.json', 'r') as f:
                 self.intents_data = json.load(f)
             
             # Load models
@@ -54,16 +54,18 @@ class SimpleDekutChatbot:
             
             # Predict
             prediction = self.classifier.predict(X)
-            probability = np.max(self.classifier.predict_proba(X))
+
             
+            probability = np.max(self.classifier.predict_proba(X))
+            print(f"prediction {probability} ")
             # Decode intent
             intent = self.label_encoder.inverse_transform(prediction)[0]
-            
+            print(f"prediction {intent} ")
             print(f"🎯 User: '{user_input}'")
             print(f"🎯 Intent: {intent} (confidence: {probability:.2%})")
             
             # Check confidence threshold
-            if probability > 0.5 and intent in self.tag_responses:
+            if probability < 0.25 and intent in self.tag_responses:
                 return random.choice(self.tag_responses[intent])
             else:
                 fallbacks = [
@@ -85,7 +87,7 @@ chatbot = SimpleDekutChatbot()
 def home():
     return render_template('index.html')
 
-@app.route('/chat', methods=['POST'])
+@app.route('/chat', methods=["POST"])
 def chat():
     user_message = request.json.get('message', '').strip()
     

@@ -1,7 +1,4 @@
-"""
-SIMPLE TRAIN.PY - Uses scikit-learn instead of TensorFlow
-Perfect for academic projects - easier to run and understand
-"""
+
 
 import json
 import numpy as np
